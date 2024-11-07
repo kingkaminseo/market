@@ -78,3 +78,31 @@
   font-size: 19px;
   font-weight: 100;
 }
+
+@font-face {
+  font-family: "STUNNING-Bd";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2410-2@1.0/STUNNING-Bd.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.li {
+  font-family: "STUNNING-Bd";
+  font-weight: 400;
+  display: inline-block;
+  padding: 6px;
+  margin-left: 1px;
+  font-size: 16px;
+}
+
+.detailLi {
+  font-family: "STUNNING-Bd";
+  display: inline-block;
+  font-size: 11px;
+  padding: 6px;
+  border-radius: 50px;
+  margin: 3px;
+  color: rgb(147, 152, 158);
+  border: 1px solid rgb(232, 232, 233);
+}
