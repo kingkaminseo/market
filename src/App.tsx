@@ -1,12 +1,12 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import ViewAllMarket from "./components/ViewAllMarket";
+import Main from "./views/Main";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<ViewAllMarket />} />
+        <Route path="/" element={<Main />} />
       </Routes>
     </Router>
   );

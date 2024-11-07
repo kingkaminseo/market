@@ -1,7 +1,7 @@
 function Navbar() {
   return (
     <div>
-      <img src=" " alt="" />
+      <img src="imgs/icons/logo.svg" alt="" />
     </div>
   );
 }
