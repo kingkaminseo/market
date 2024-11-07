@@ -21,18 +21,16 @@ function ViewAllMarket() {
 
   return (
     <div>
-      <h1>오늘의 시세를 확인해 보세요</h1>
-      <div>
-        <ul>
-          {data.map((item) => (
-            <li style={{ border: "1px solid gray" }}>
-              {item.korean_name}
-              <br />
-              {item.market.split("-")[1]}
-            </li>
-          ))}
-        </ul>
-      </div>
+      <ul>
+        {data.map((item) => (
+          <li style={{ borderBottom: "1px solid rgb(243,244,244)" }}>
+            {item.korean_name}
+            <br />
+            {item.market.split("-")[1]}
+            {/* {item.market_warning} */}
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }

@@ -27,6 +27,7 @@ function FirstModal() {
       style={{
         backgroundColor: "rgba(0, 0, 0, 0.5)",
         display: modalOpen ? "block" : "none",
+        zIndex: "999",
       }}
     >
       <div className={"btn-wrapper"}></div>
