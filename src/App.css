@@ -64,3 +64,17 @@
     opacity: 1;
   }
 }
+
+@font-face {
+  font-family: "Freesentation-9Black";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2")
+    format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+.header {
+  font-family: "Freesentation-9Black";
+  font-size: 19px;
+  font-weight: 100;
+}

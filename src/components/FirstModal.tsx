@@ -25,7 +25,8 @@ function FirstModal() {
     <div
       className="filter"
       style={{
-        backgroundColor: modalOpen ? "rgba(0, 0, 0, 0.5)" : "rgba(0, 0, 0,0)",
+        backgroundColor: "rgba(0, 0, 0, 0.5)",
+        display: modalOpen ? "block" : "none",
       }}
     >
       <div className={"btn-wrapper"}></div>
