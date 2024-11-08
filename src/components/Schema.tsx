@@ -5,6 +5,9 @@ function Schema() {
         backgroundColor: "rgb(248, 249, 250)",
         display: "flex",
         padding: "10px",
+
+        position: "sticky",
+        top: "55px",
       }}
     >
       <p

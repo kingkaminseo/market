@@ -20,7 +20,7 @@ function DetailCategory() {
           height: "100%",
           width: "100%",
           position: "relative",
-          zIndex: "99",
+          zIndex: "2",
         }}
       >
         <div
@@ -62,7 +62,7 @@ function DetailCategory() {
               position: "absolute",
               right: "20px",
               top: "5px",
-              zIndex: "999",
+              zIndex: "9",
               border: "none",
             }}
             onClick={() => setShow(show ? false : true)}

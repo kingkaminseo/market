@@ -19,6 +19,10 @@ function Navbar() {
         padding: "10px",
         display: "flex",
         paddingTop: "15px",
+        position: "sticky",
+        top: "0",
+        backgroundColor: "white",
+        zIndex: "88",
       }}
     >
       <img src="imgs/icons/logo.svg" alt="" />

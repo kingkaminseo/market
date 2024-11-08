@@ -23,10 +23,25 @@ function ViewAllMarket() {
     <div>
       <ul>
         {data.map((item) => (
-          <li style={{ borderBottom: "1px solid rgb(243,244,244)" }}>
-            {item.korean_name}
-            <br />
-            {item.market.split("-")[1]}
+          <li
+            style={{
+              borderBottom: "1px solid rgb(243,244,244)",
+              padding: "3px",
+              paddingLeft: "12px",
+            }}
+          >
+            <p style={{ fontSize: "13px", fontWeight: "700" }}>
+              {item.korean_name}
+            </p>
+            <span
+              style={{
+                fontSize: "12px",
+                fontWeight: "600",
+                color: "rgb(147, 152, 158)",
+              }}
+            >
+              {item.market.split("-")[1]}
+            </span>
             {/* {item.market_warning} */}
           </li>
         ))}

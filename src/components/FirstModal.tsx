@@ -11,6 +11,11 @@ function FirstModal() {
       setModalOpen(false);
     }
   }, []);
+  if (modalOpen) {
+    document.body.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "auto";
+  }
 
   function createCookie() {
     // 현재 날짜와 시간을 가져옵니다.
